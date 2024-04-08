@@ -327,8 +327,7 @@ body {
 }
 
 .footer-description{
-    font-size: 14px;
-    margin: 10px 0;
+
 }
 
 /* ici on va coder la vue tablette*/
@@ -396,6 +395,11 @@ body {
     .bloc-pizza {
         display: flex;
 
+    }
+
+    /*4eme section*/
+    {
+        
     }
 }
 
