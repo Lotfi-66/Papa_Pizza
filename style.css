@@ -16,15 +16,20 @@
 
 /*reset css*/
 * {
-    margin: 0 !important;
-    padding: 0 !important;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: "khula-regular", sans-serif;
     color: rgba(245, 245, 245, 1);
 
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'danscing', sans-serif;
 }
 
@@ -34,8 +39,12 @@ a {
     color: rgba(245, 245, 245, 1);
 }
 
-ul,ol,li {
+ul,
+ol,
+li {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -47,55 +56,70 @@ body {
     flex-direction: column;
 }
 
-.line1{
+.line1 {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 50px;
 
 }
-.box-phone{
+
+.box-phone {
     margin-right: 25px;
 }
 
-.box-social{
+.box-social {
     margin-left: 25px;
 }
 
 /*2eme media query>480px et >768px*/
 /* ici on va coder la vue tablette*/
-@media screen and (min-width: 480px){}
+@media screen and (min-width: 480px) {}
 
-.line2{
+.line2 {
     width: 100%;
-    background: linear-gradient(to bottom, rgba(33, 27, 26, 1),rgba(155, 49, 49, 1));
+    background: linear-gradient(to bottom, rgba(33, 27, 26, 1), rgba(155, 49, 49, 1));
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.nav-logo{
+.nav-logo {
     margin-top: 20px;
 }
 
-.logo-papapizza{
+.logo-papapizza {
     width: 150px;
     height: auto;
     object-fit: contain;
 }
 
 /* nav bar  */
-.custom-nav{
+.custom-nav,
+.nav-profil {
     margin-top: 20px;
 }
 
-.nav-list{
+.nav-list {
     width: 100%;
 }
 
-.custom-ul{
-    display:flex;
+.custom-ul {
+    display: flex;
     width: 100%;
     justify-content: space-evenly;
 }
 
+.custom-ul-profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-link {
+    padding: 0 10px;
+}
+
+.custom-link>a:hover {
+    color: rgba(225, 71, 78, 1);
+}
