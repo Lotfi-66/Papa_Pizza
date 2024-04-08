@@ -28,7 +28,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'danscing', sans-serif;
+    font-family: 'dancing', sans-serif;
 }
 
 a {
@@ -171,38 +171,38 @@ body {
 }
 
 /* second section  */
-#second-section{
+#second-section {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
 }
 
-.sub-title{
+.sub-title {
     color: rgba(155, 49, 49, 1);
     font-size: 30px;
 }
 
-.name-pizza{
+.name-pizza {
     color: rgba(155, 49, 49, 1);
     font-size: 20px;
 }
 
-.home-pizza{
+.home-pizza {
     width: 200px;
     height: 200px;
     object-fit: contain;
 }
 
-.card-pizza{
+.card-pizza {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 20px;
 }
 
-.strong{
-    font-family:"khula-bold",sans-serif;    
+.strong {
+    font-family: "khula-bold", sans-serif;
 }
 
 .box-social-icons {
@@ -279,8 +279,9 @@ body {
     }
 
     /* deuxieme section  */
-    .bloc-pizza{
+    .bloc-pizza {
         display: flex;
+
     }
 }
 
