@@ -24,7 +24,7 @@
 
 }
 
-ha,
+h1,
 h2,
 h3,
 h4,
@@ -48,3 +48,27 @@ li {
 body {
     background-color: rgba(33, 27, 26, 1);
 }
+
+#topbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.line1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+
+}
+.box-phone{
+    margin-right: 25px;
+}
+
+.box-social{
+    margin-left: 25px;
+}
+
+/*2eme media query>480px et >768px*/
+/* ici on va coder la vue tablette*/
+@media screen and (min-width: 480px){}
