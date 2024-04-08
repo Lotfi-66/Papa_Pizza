@@ -20,8 +20,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "khula-regular", sans-serif;
-    color: rgba(245, 245, 245, 1);
-
 }
 
 h1,
@@ -49,6 +47,7 @@ li {
 
 body {
     background-color: rgba(33, 27, 26, 1);
+    color: rgba(245, 245, 245, 1);
 }
 
 #topbar {
@@ -61,7 +60,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 50px;
-
 }
 
 .box-phone {
