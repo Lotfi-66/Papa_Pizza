@@ -72,3 +72,11 @@ body {
 /*2eme media query>480px et >768px*/
 /* ici on va coder la vue tablette*/
 @media screen and (min-width: 480px){}
+
+.line2{
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(33, 27, 26, 1),rgba(155, 49, 49, 1));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
