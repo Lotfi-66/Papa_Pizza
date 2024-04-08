@@ -70,10 +70,6 @@ body {
     margin-left: 25px;
 }
 
-/*2eme media query>480px et >768px*/
-/* ici on va coder la vue tablette*/
-@media screen and (min-width: 480px) {}
-
 .line2 {
     width: 100%;
     background: linear-gradient(to bottom, rgba(33, 27, 26, 1), rgba(155, 49, 49, 1));
@@ -120,4 +116,54 @@ body {
 
 .custom-link>a:hover {
     color: rgba(225, 71, 78, 1);
+}
+
+.end-link {
+    border-left: 1px solid rgba(245, 245, 245, 1);
+}
+
+.box-social-icons {
+    margin-left: 25px;
+}
+
+.box-social-icons {
+    margin: 0 5px;
+    padding: 2px;
+}
+
+.box-social-icons>a:hover {
+    color: rgba(225, 71, 78, 1);
+}
+
+/*2eme media query>480px et >768px*/
+/* ici on va coder la vue tablette*/
+@media screen and (min-width: 480px) {}
+
+@media screen and (min-width: 768px) {
+    .line2 {
+        flex-direction: row;
+        align-items: center;
+        align-content: center;
+        justify-content: space-between;
+        padding-bottom: 20px;
+    }
+
+    .custom-ul {
+        justify-content: center;
+    }
+
+    .custom-link {
+        padding: 0 10px;
+    }
+
+    .nav-logo,
+    .nav-list,
+    .nav-profil {
+        width: 100%;
+    }
+
+    .nav-logo {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
 }
