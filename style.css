@@ -218,10 +218,11 @@ body {
     color: rgba(225, 71, 78, 1);
 }
 
-/*2eme media query>480px et >768px*/
 /* ici on va coder la vue tablette*/
 @media screen and (min-width: 480px) {}
 
+/*Vue smartphone*/
+/*2eme media query>480px et >768px*/
 @media screen and (min-width: 768px) {
     .line2 {
         flex-direction: row;
