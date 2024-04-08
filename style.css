@@ -1,7 +1,50 @@
+/*import des fonts*/
+@font-face {
+    font-family: 'dancing';
+    src: url(assets/fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'khula-regular';
+    src: url(assets/fonts/Khula/Khula-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'khula-bold';
+    src: url(assets/fonts/Khula/Khula-Bold.ttf) format('truetype');
+}
+
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "khula-regular", sans-serif;
+    color: rgba(245, 245, 245, 1);
+
+}
+
+ha,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'danscing', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgba(245, 245, 245, 1);
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+    background-color: rgba(33, 27, 26, 1);
 }
